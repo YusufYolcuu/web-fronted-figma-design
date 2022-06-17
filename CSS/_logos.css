@@ -1,0 +1,10 @@
+@media screen and (min-width: 1000px) {
+    .logos {
+        margin: auto;
+        width: 50%;
+        margin-top: 30px;
+    }
+    .logos img {
+        opacity: 0.4;
+    }
+}

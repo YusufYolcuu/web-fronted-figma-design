@@ -1,0 +1,22 @@
+@media screen and (min-width: 1000px) {
+    .integration-pic {
+        margin: auto;
+        margin-top: 30px;
+        background-image: url(../images/integration-pic.svg);
+        width: 1223px;
+        height: 1389px;
+    }
+    .integration-pic .wave {
+        position: absolute;
+    }
+    .integration-pic .wave:before {
+        content: "";
+        position: absolute;
+        width: 2147px;
+        height: 1538px;
+        left: -230px;
+        background: url(../icon/big-wave2.svg);
+        background-size: cover;
+        background-repeat: no-repeat
+    }
+}

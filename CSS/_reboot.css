@@ -1,0 +1,50 @@
+* {
+    outline: none;
+    box-sizing: border-box;
+}
+
+html,
+body,
+ul,
+ol {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    overflow-x: hidden;
+}
+
+body ul,
+ol {
+    border: none;
+}
+
+a {
+    display: inline;
+    text-decoration: none;
+}
+
+a:hover {
+    display: inline;
+    text-decoration: none;
+}
+
+span {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+figure {
+    margin: 0;
+}

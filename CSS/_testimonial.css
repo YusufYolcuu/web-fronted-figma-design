@@ -1,0 +1,11 @@
+@media screen and (min-width: 1000px) {
+    .testimonial-pic {
+        margin: auto;
+        margin-top: 70px;
+        margin-left: 0px;
+        background-image: url(../images/testimonial-pic.svg);
+        width: 1621.65px;
+        height: 796px;
+        background-repeat: no-repeat
+    }
+}
