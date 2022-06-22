@@ -22,13 +22,8 @@ ol {
 }
 
 a {
-    display: inline;
     text-decoration: none;
-}
-
-a:hover {
-    display: inline;
-    text-decoration: none;
+    color: black;
 }
 
 span {

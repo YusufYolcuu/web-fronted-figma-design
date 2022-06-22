@@ -1,0 +1,28 @@
+.swiper {
+    width: 1280px;
+    height: 200px;
+    margin-bottom: 100px;
+}
+
+.swiper .slide h1 {
+    font-family: 'OpenSans';
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.54);
+}
+
+.swiper .slide p {
+    font-family: 'OpenSans';
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.swiper .slide a {
+    font-family: 'OpenSans';
+    font-size: 16px;
+    line-height: 19px;
+    color: #9C27B0;
+}

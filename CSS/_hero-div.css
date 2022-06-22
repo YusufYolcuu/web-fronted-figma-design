@@ -1,0 +1,57 @@
+.hero-section .hero-content p {
+    font-family: 'Open Sans', sans-serif;
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.hero-section .hero-content .learn-button p {
+    color: #9C27B0;
+}
+
+.hero-section .hero-content .started-button {
+    background-color: #8BC34A;
+    border-radius: 100px;
+    border: 1px solid white;
+}
+
+@media screen and (min-width: 1200px) {
+    .cer {
+        width: 100%;
+        height: 383px;
+    }
+    .hero {
+        position: relative;
+        width: 664px;
+        height: 383px;
+        background-image: url(../images/Banner1.svg);
+        opacity: 0.4;
+    }
+    .oval {
+        position: relative;
+        width: 860px;
+    }
+    .oval:before {
+        content: "";
+        position: absolute;
+        margin-top: 280px;
+        width: 100%;
+        height: 450px;
+        background: url(../icon/Oval.svg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .colorvawe {
+        position: relative;
+        width: 100%;
+        height: 300px;
+    }
+    .colorvawe:before {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 600px;
+        top: -240px;
+        background-image: url(../icon/colorfullvawe.svg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
